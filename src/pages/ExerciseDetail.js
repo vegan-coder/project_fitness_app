@@ -1,8 +1,8 @@
 import React from 'react'
-import {useEffect, useState} from 'react'
-import {useParams} from 'react-router-dom'
-import {Box} from '@mui/material'
-import { exerciseOptions, fetch, fetchData } from '../utils/fetchData'
+import { useEffect, useState } from 'react'
+import { useParams } from 'react-router-dom'
+import { Box } from '@mui/material'
+import { exerciseOptions, fetch , fetchData } from '../utils/fetchData'
 import Detail from "../components/Detail"
 import ExerciseVidoes from '../components/ExerciseVidoes'
 import SimilarExercises from '../components/SimilarExercises'
